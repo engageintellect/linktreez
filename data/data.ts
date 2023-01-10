@@ -1,31 +1,50 @@
+
 export const items = {
 	github: {
 		title: 'GitHub',
-		description: 'GitHub is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features.',
 		url: 'https://github.com/engageintellect',
-		button_label: 'View on GitHub',
 	},
 
 	twitter: {
-		title: 'Titter',
-		description: 'GitHub is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features.',
-		url: 'https://github.com/engageintellect',
-		button_label: 'View on GitHub',
+		title: 'Twitter',
+		url: 'https://twitter.com/engageintellec',
 	},
 
-	facebook: {
-		title: 'Facebook',
-		description: 'GitHub is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features.',
+	medium: {
+		title: 'Medium',
 		url: 'https://github.com/engageintellect',
-		button_label: 'View on GitHub',
 	},
 
 	youtube: {
 		title: 'YouTube',
-		description: 'GitHub is a web-based hosting service for version control using Git. It is mostly used for computer code. It offers all of the distributed version control and source code management (SCM) functionality of Git as well as adding its own features.',
-		url: 'https://github.com/engageintellect',
-		button_label: 'View on GitHub',
+		url: 'https://www.google.com/search?q=youtube+rick+roll&rlz=1C1YTUH_enUS1029US1029&oq=youtube+rick+roll&aqs=chrome..69i57j69i64.2546j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:0c2941ce,vid:eBGIQ7ZuuiU',
 	},
+
+	homepage: {
+		title: 'Homepage',
+		url: 'https://www.google.com/search?q=youtube+rick+roll&rlz=1C1YTUH_enUS1029US1029&oq=youtube+rick+roll&aqs=chrome..69i57j69i64.2546j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:0c2941ce,vid:eBGIQ7ZuuiU',
+	},
+
+	snapchat: {
+		title: 'YouTube',
+		url: 'https://www.google.com/search?q=youtube+rick+roll&rlz=1C1YTUH_enUS1029US1029&oq=youtube+rick+roll&aqs=chrome..69i57j69i64.2546j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:0c2941ce,vid:eBGIQ7ZuuiU',
+	},
+	
+	instagram: {
+		title: 'Instagram',
+		url: 'https://www.google.com/search?q=youtube+rick+roll&rlz=1C1YTUH_enUS1029US1029&oq=youtube+rick+roll&aqs=chrome..69i57j69i64.2546j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:0c2941ce,vid:eBGIQ7ZuuiU',
+	},
+
+	bitcoin: {
+		title: 'Bitcoin',
+		url: 'https://www.google.com/search?q=youtube+rick+roll&rlz=1C1YTUH_enUS1029US1029&oq=youtube+rick+roll&aqs=chrome..69i57j69i64.2546j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:0c2941ce,vid:eBGIQ7ZuuiU',
+	},
+
+	facebook: {
+		title: 'Facebook',
+		url: 'https://www.google.com/search?q=youtube+rick+roll&rlz=1C1YTUH_enUS1029US1029&oq=youtube+rick+roll&aqs=chrome..69i57j69i64.2546j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:0c2941ce,vid:eBGIQ7ZuuiU',
+	},
+
 
 
 }

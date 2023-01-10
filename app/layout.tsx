@@ -16,8 +16,8 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <Navbar />
-        <div className="min-h-screen bg-neutral p-2">{children}</div>
+        {/* <Navbar /> */}
+        <div className="min-h-screen bg-base-300 p-2">{children}</div>
         <Footer />
       </body>
     </html>
