@@ -1,9 +1,12 @@
-import './globals.css'
+import "./globals.css";
+
+import Navbar from "./(components)/Navbar";
+import Footer from "./(components)/Footer";
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -12,7 +15,11 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        <div className="min-h-screen bg-neutral p-2">{children}</div>
+        <Footer />
+      </body>
     </html>
-  )
+  );
 }
