@@ -9,4 +9,5 @@ LinkTreez is a linktree clone made using Next.js 13, Tailwind, and Daisy UI.
 ### Run code
 
 `git clone https://github.com/engageintellect/linktreez.git`
+
 `cd linktreez && npm i && npm run dev`
