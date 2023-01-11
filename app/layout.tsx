@@ -17,7 +17,9 @@ export default function RootLayout({
       <head />
       <body>
         {/* <Navbar /> */}
-        <div className="min-h-screen bg-base-300 p-2">{children}</div>
+        <div className="min-h-screen bg-gradient-to-t from-gray-800 to-gray-900 p-2">
+          {children}
+        </div>
         <Footer />
       </body>
     </html>

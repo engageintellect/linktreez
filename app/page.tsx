@@ -8,8 +8,8 @@ import {
   FaYoutube,
   FaFacebook,
   FaInstagram,
-  FaBitcoin,
   FaMedium,
+  FaDiscord,
 } from "react-icons/fa";
 
 import { items } from "../data/data";
@@ -34,10 +34,21 @@ export default function Home() {
             url={items.github.url}
           />
           <Card
+            title={items.instagram.title}
+            icon={<FaInstagram />}
+            url={items.instagram.url}
+          />
+          <Card
             title={items.twitter.title}
             icon={<FaTwitter />}
             url={items.twitter.url}
           />
+          <Card
+            title={items.discord.title}
+            icon={<FaDiscord />}
+            url={items.discord.url}
+          />
+
           <Card
             title={items.youtube.title}
             icon={<FaYoutube />}
@@ -49,15 +60,14 @@ export default function Home() {
             url={items.instagram.url}
           />
           <Card
+            title={items.medium.title}
+            icon={<FaMedium />}
+            url={items.medium.url}
+          />
+          <Card
             title={items.facebook.title}
             icon={<FaFacebook />}
             url={items.facebook.url}
-          />
-
-          <Card
-            title={items.bitcoin.title}
-            icon={<FaBitcoin />}
-            url={items.bitcoin.url}
           />
         </div>
       </div>
