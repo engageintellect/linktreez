@@ -12,7 +12,7 @@ export const items = {
 
 	medium: {
 		title: 'Medium',
-		url: 'https://github.com/engageintellect',
+		url: 'https://medium.com/@engageintellect',
 	},
 
 	youtube: {
@@ -47,7 +47,7 @@ export const items = {
 
 	discord: {
 		title: 'Discord',
-		url: 'https://www.google.com/search?q=youtube+rick+roll&rlz=1C1YTUH_enUS1029US1029&oq=youtube+rick+roll&aqs=chrome..69i57j69i64.2546j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:0c2941ce,vid:eBGIQ7ZuuiU',
+		url: 'https://discordapp.com/users/engage_intellect#1888',
 	},
 
 
