@@ -4,7 +4,7 @@ export default function Avatar() {
   return (
     <>
       <div className="avatar">
-        <div className="w-32 mask mask-triangle">
+        <div className="w-32 mask mask-squircle">
           <Image
             alt="user avatar"
             src="https://avatars.githubusercontent.com/engageintellect"

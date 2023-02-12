@@ -18,9 +18,9 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
-        <section className="flex flex-col items-center justify-center my-10">
+        <section className="flex flex-col items-center gap-5 justify-center my-10">
           <Avatar />
-          <div className="text-xl font-semibold">
+          <div className="text-2xl font-semibold">
             <a href="/">@engage_intellect</a>
           </div>
         </section>
