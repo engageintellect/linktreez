@@ -48,21 +48,15 @@ export default function Home() {
             icon={<FaDiscord />}
             url={items.discord.url}
           />
-
-          <Card
-            title={items.youtube.title}
-            icon={<FaYoutube />}
-            url={items.youtube.url}
-          />
-          <Card
-            title={items.instagram.title}
-            icon={<FaInstagram />}
-            url={items.instagram.url}
-          />
           <Card
             title={items.medium.title}
             icon={<FaMedium />}
             url={items.medium.url}
+          />
+          <Card
+            title={items.youtube.title}
+            icon={<FaYoutube />}
+            url={items.youtube.url}
           />
           <Card
             title={items.facebook.title}
