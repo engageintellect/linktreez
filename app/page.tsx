@@ -3,6 +3,7 @@ import Card from "./(components)/Card";
 import PayMe from "./(components)/PayMe";
 
 import {
+  FaHome,
   FaGithub,
   FaTwitter,
   FaYoutube,
@@ -28,6 +29,12 @@ export default function Home() {
         <PayMe />
 
         <div className="w-full flex flex-col items-center justify-center pb-10">
+          <Card
+            title={items.homepage.title}
+            icon={<FaHome />}
+            url={items.homepage.url}
+          />
+
           <Card
             title={items.github.title}
             icon={<FaGithub />}
