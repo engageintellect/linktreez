@@ -34,11 +34,15 @@ export default function Home() {
             icon={<FaHome />}
             url={items.homepage.url}
           />
-
           <Card
             title={items.github.title}
             icon={<FaGithub />}
             url={items.github.url}
+          />
+          <Card
+            title={items.medium.title}
+            icon={<FaMedium />}
+            url={items.medium.url}
           />
           <Card
             title={items.instagram.title}
@@ -54,21 +58,6 @@ export default function Home() {
             title={items.discord.title}
             icon={<FaDiscord />}
             url={items.discord.url}
-          />
-          <Card
-            title={items.medium.title}
-            icon={<FaMedium />}
-            url={items.medium.url}
-          />
-          <Card
-            title={items.youtube.title}
-            icon={<FaYoutube />}
-            url={items.youtube.url}
-          />
-          <Card
-            title={items.facebook.title}
-            icon={<FaFacebook />}
-            url={items.facebook.url}
           />
         </div>
       </div>
