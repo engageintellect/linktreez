@@ -6,6 +6,7 @@ export default function Avatar() {
       <div className="avatar">
         <div className="w-32 mask mask-squircle">
           <Image
+            priority={true}
             alt="user avatar"
             src="https://avatars.githubusercontent.com/engageintellect"
             width={100}
