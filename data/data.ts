@@ -21,7 +21,7 @@ export const items = {
 
   homepage: {
     title: "Homepage",
-    url: "https://engage-homepage-git-main-engageintellect.vercel.app/",
+    url: "https://engage-homepage-engageintellect.vercel.app/",
   },
 
   snapchat: {
