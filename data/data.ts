@@ -11,7 +11,7 @@ export const items = {
 
   twitter: {
     title: "Twitter",
-    url: "https://twitter.com/engageintellec",
+    url: "https://twitter.com/engageintellect",
   },
 
   youtube: {
