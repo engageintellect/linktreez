@@ -22,7 +22,7 @@ export const items = {
 
   blog: {
     title: "Blog",
-    url: "https://engage-homepage.vercel.app/category/articles",
+    url: "https://engage-homepage.vercel.app/blog",
   },
 
   github: {
