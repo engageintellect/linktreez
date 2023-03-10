@@ -16,7 +16,7 @@ export default function Card({
       <a
         href={url}
         target="_blank"
-        className="my-2 group transition-color duration-300 hover:bg-zinc-900 bg-zinc-800 h-20 w-full sm:w-[66vw] md:w-[50vw] xl:w-[33vw] rounded-lg shadow-lg flex items-center justify-between"
+        className="my-2 group transition-color duration-300 hover:bg-zinc-600 bg-zinc-500 h-40 w-full sm:w-[66vw] md:w-[50vw] xl:w-[33vw] rounded-lg shadow-lg flex items-center justify-between"
         rel="noreferrer"
       >
         <div className="flex items-center group-hover:shadow-lg justify-center h-16 bg-zinc-800 w-20 m-2 rounded-lg">

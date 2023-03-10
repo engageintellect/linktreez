@@ -1,9 +1,11 @@
 import Avatar from "./(components)/Avatar";
 import Card from "./(components)/Card";
+import FeaturedCard from "./(components)/FeaturedCard";
 import PayMe from "./(components)/PayMe";
 
 import {
-  FaHome,
+  FaGlobe,
+  FaBlog,
   FaGithub,
   FaTwitter,
   FaYoutube,
@@ -29,10 +31,21 @@ export default function Home() {
         <PayMe />
 
         <div className="w-full flex flex-col items-center justify-center pb-10">
+          {/* <FeaturedCard
+            title={items.homepage.title}
+            icon={<FaBlog />}
+            url={items.homepage.url}
+          /> */}
+
           <Card
             title={items.homepage.title}
-            icon={<FaHome />}
+            icon={<FaGlobe />}
             url={items.homepage.url}
+          />
+          <Card
+            title={items.blog.title}
+            icon={<FaBlog />}
+            url={items.blog.url}
           />
           <Card
             title={items.github.title}
