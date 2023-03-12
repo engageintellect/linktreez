@@ -13,6 +13,7 @@ import {
   FaInstagram,
   FaMedium,
   FaDiscord,
+  FaNewspaper,
 } from "react-icons/fa";
 
 import { items } from "../data/data";
@@ -43,14 +44,14 @@ export default function Home() {
             url={items.homepage.url}
           />
           <Card
-            title={items.blog.title}
-            icon={<FaBlog />}
-            url={items.blog.url}
-          />
-          <Card
             title={items.github.title}
             icon={<FaGithub />}
             url={items.github.url}
+          />
+          <Card
+            title={items.blog.title}
+            icon={<FaNewspaper />}
+            url={items.blog.url}
           />
           <Card
             title={items.medium.title}
@@ -66,11 +67,6 @@ export default function Home() {
             title={items.twitter.title}
             icon={<FaTwitter />}
             url={items.twitter.url}
-          />
-          <Card
-            title={items.discord.title}
-            icon={<FaDiscord />}
-            url={items.discord.url}
           />
         </div>
       </div>
