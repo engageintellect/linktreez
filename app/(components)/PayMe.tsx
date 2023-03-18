@@ -13,7 +13,10 @@ export default function PayMe() {
             <FaDollarSign />
           </div>
         </a>
-        <a className="group text-4xl w-full bg-amber-700 hover:bg-amber-800 rounded-lg flex items-center justify-center transition-colors duration-300">
+        <a
+          href={items.bitcoin.url}
+          className="group text-4xl w-full bg-amber-700 hover:bg-amber-800 rounded-lg flex items-center justify-center transition-colors duration-300"
+        >
           <div className="group-hover:scale-[110%] transition-transform duration-500">
             <FaBtc />
           </div>
