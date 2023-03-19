@@ -33,12 +33,6 @@ export default function Home() {
         <PayMe />
 
         <div className="w-full flex flex-col items-center justify-center pb-10">
-          {/* <FeaturedCard
-            title={items.homepage.title}
-            icon={<FaBlog />}
-            url={items.homepage.url}
-          /> */}
-
           <Card
             title={items.homepage.title}
             icon={<FaGlobe />}
