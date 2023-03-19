@@ -15,6 +15,11 @@ export const items = {
     url: "https://cash.app/jc9361",
   },
 
+  crypto_dashboard: {
+    title: "Crypto Dashboard",
+    url: "https://crypto-dashboard-engageintellect.vercel.app/",
+  },
+
   homepage: {
     title: "Homepage",
     url: "https://engage-homepage.vercel.app/",
