@@ -15,6 +15,7 @@ import {
   FaDiscord,
   FaNewspaper,
   FaChartArea,
+  FaLaptop,
 } from "react-icons/fa";
 
 import { items } from "../data/data";
@@ -47,6 +48,11 @@ export default function Home() {
             title={items.blog.title}
             icon={<FaNewspaper />}
             url={items.blog.url}
+          />
+          <Card
+            title={items.rugged_development.title}
+            icon={<FaLaptop />}
+            url={items.rugged_development.url}
           />
           <Card
             title={items.crypto_dashboard.title}

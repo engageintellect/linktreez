@@ -24,7 +24,10 @@ export const items = {
     title: "Homepage",
     url: "https://engage-homepage.vercel.app/",
   },
-
+  rugged_development: {
+    title: "Rugged Development",
+    url: "https://ruggeddevelopment.io",
+  },
   blog: {
     title: "Blog",
     url: "https://engage-homepage.vercel.app/blog",
