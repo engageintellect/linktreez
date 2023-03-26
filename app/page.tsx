@@ -18,7 +18,7 @@ import {
   FaLaptop,
 } from "react-icons/fa";
 
-import { items } from "../data/data";
+import { items, tagline } from "../data/data";
 
 export default function Home() {
   return (
@@ -28,6 +28,14 @@ export default function Home() {
           <Avatar />
           <div className="text-2xl font-semibold">
             <a href="/">@engage_intellect</a>
+          </div>
+
+          <div className="text-zinc-500 flex justify-between gap-5">
+            {tagline.map((item, index) => (
+              <div className="text-zinc-500 text-center" key={index}>
+                {item}
+              </div>
+            ))}
           </div>
         </section>
 
