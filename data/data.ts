@@ -1,8 +1,12 @@
+import { FaBlogger } from "react-icons/fa";
+
 export const config = {
   title: "linktreez",
   url: "https://github.com/engageintellect/linktreez",
   github: "https://github.com/engageintellect",
 };
+
+export const tagline = ["Developer", "Tech Blogger", "Crypto", "Finance"];
 
 export const items = {
   bitcoin: {
