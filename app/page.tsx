@@ -23,7 +23,7 @@ import { items, tagline } from "../data/data";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center w-full max-w-xl mx-auto">
         <section className="flex flex-col items-center gap-5 justify-center my-10">
           <Avatar />
           <div className="text-2xl font-semibold">
