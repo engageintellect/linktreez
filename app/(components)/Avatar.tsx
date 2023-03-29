@@ -4,7 +4,7 @@ export default function Avatar() {
   return (
     <>
       <a href="/">
-        <div className="avatar">
+        <div className="avatar hover:scale-[102%] transition-all duration-300">
           <div className="w-32 mask mask-squircle">
             <Image
               priority={true}
