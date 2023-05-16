@@ -16,6 +16,7 @@ import {
   FaNewspaper,
   FaChartArea,
   FaLaptop,
+  FaRobot,
 } from "react-icons/fa";
 
 import { items, tagline } from "../data/data";
@@ -56,6 +57,11 @@ export default function Home() {
             title={items.blog.title}
             icon={<FaNewspaper />}
             url={items.blog.url}
+          />
+          <Card
+            title={items.engage_chat.title}
+            icon={<FaRobot />}
+            url={items.engage_chat.url}
           />
           <Card
             title={items.rugged_development.title}

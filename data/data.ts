@@ -28,10 +28,17 @@ export const items = {
     title: "Homepage",
     url: "https://engage-homepage.vercel.app/",
   },
+
   rugged_development: {
     title: "Rugged Development",
     url: "https://ruggeddevelopment.io",
   },
+
+  engage_chat: {
+    title: "Engage Chat",
+    url: "https://engage-chat.vercel.app",
+  },
+
   blog: {
     title: "Blog",
     url: "https://engage-homepage.vercel.app/blog",
