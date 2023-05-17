@@ -59,9 +59,9 @@ export default function Home() {
             url={items.blog.url}
           />
           <Card
-            title={items.engage_chat.title}
+            title={items.engage_gpt.title}
             icon={<FaRobot />}
-            url={items.engage_chat.url}
+            url={items.engage_gpt.url}
           />
           <Card
             title={items.rugged_development.title}

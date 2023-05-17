@@ -2,6 +2,7 @@ import { FaBlogger } from "react-icons/fa";
 
 export const config = {
   title: "linktreez",
+  footer: "Made using linktreez",
   url: "https://github.com/engageintellect/linktreez",
   github: "https://github.com/engageintellect",
 };
@@ -34,8 +35,8 @@ export const items = {
     url: "https://ruggeddevelopment.io",
   },
 
-  engage_chat: {
-    title: "Engage Chat",
+  engage_gpt: {
+    title: "EngageGPT",
     url: "https://engage-chat.vercel.app",
   },
 

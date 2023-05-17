@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="py-2 text-center bg-zinc-800">
       <a href={config.url}>
         <div className="flex justify-center items-center gap-2">
-          <div>{config.title}</div>
+          <div>{config.footer}</div>
           <div>
             <FaGithub />
           </div>
