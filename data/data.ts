@@ -7,7 +7,7 @@ export const config = {
   github: "https://github.com/engageintellect",
 };
 
-export const tagline = ["Developer", "Tech Blogger", "Crypto", "Finance"];
+export const tagline = ["Software", "Technology", "AI", "Crypto", "Finance"];
 
 export const items = {
   bitcoin: {

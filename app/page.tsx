@@ -33,7 +33,10 @@ export default function Home() {
 
           <div className="text-zinc-500 flex justify-between gap-5">
             {tagline.map((item, index) => (
-              <div className="text-zinc-500 text-center" key={index}>
+              <div
+                className="text-zinc-500 text-sm text-center font-thin"
+                key={index}
+              >
                 {item}
               </div>
             ))}
@@ -42,7 +45,7 @@ export default function Home() {
 
         <PayMe />
 
-        <div className="w-full flex flex-col items-center justify-center pb-10">
+        <div className="w-full flex gap-2 my-2 flex-col items-center justify-center pb-2 lg:pb-10">
           <Card
             title={items.homepage.title}
             icon={<FaGlobe />}
