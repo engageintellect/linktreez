@@ -19,7 +19,7 @@ export default function Card({
         className="group transition-color bg-zinc-800/50 duration-300 h-20 w-full rounded-lg shadow-lg flex items-center justify-between"
         rel="noreferrer"
       >
-        <div className="px-5 md:px-10 text-l font-bold transition-transform duration-300 md:group-hover:scale-110">
+        <div className="px-5 md:px-10 text-l transition-transform duration-300 md:group-hover:scale-110">
           {title}
         </div>
 
