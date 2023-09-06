@@ -17,6 +17,7 @@ import {
   FaChartArea,
   FaLaptop,
   FaRobot,
+  FaBars,
 } from "react-icons/fa";
 
 import { items, tagline } from "../data/data";
@@ -55,6 +56,11 @@ export default function Home() {
             title={items.github.title}
             icon={<FaGithub />}
             url={items.github.url}
+          />
+          <Card
+            title={items.showcase.title}
+            icon={<FaBars />}
+            url={items.showcase.url}
           />
           <Card
             title={items.blog.title}
