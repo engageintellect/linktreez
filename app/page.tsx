@@ -18,6 +18,7 @@ import {
   FaLaptop,
   FaRobot,
   FaBars,
+  FaShoppingCart,
 } from "react-icons/fa";
 
 import { items, tagline } from "../data/data";
@@ -62,6 +63,13 @@ export default function Home() {
             icon={<FaBars />}
             url={items.showcase.url}
           />
+
+          <Card
+            title={items.greymatter.title}
+            icon={<FaShoppingCart />}
+            url={items.greymatter.url}
+          />
+
           <Card
             title={items.blog.title}
             icon={<FaNewspaper />}

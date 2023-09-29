@@ -29,10 +29,17 @@ export const items = {
     title: "Homepage",
     url: "https://engage-homepage.vercel.app/",
   },
+
   showcase: {
     title: "Projects",
     url: "https://engage-showcase.vercel.app",
   },
+
+  greymatter: {
+    title: "Grey Matter Extracts",
+    url: "https://shopgme.com",
+  },
+
   rugged_development: {
     title: "Rugged Development",
     url: "https://ruggeddevelopment.io",
