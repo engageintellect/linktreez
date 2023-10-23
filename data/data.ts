@@ -22,7 +22,7 @@ export const items = {
 
   crypto_dashboard: {
     title: "Crypto Dashboard",
-    url: "https://crypto-dashboard-engageintellect.vercel.app/",
+    url: "https://engage-crypto.vercel.app/",
   },
 
   homepage: {
