@@ -13,7 +13,9 @@ import {
   FaInstagram,
   FaMedium,
   FaDiscord,
+  FaChartLine,
   FaNewspaper,
+  FaCode,
   FaChartArea,
   FaLaptop,
   FaRobot,
@@ -49,31 +51,30 @@ export default function Home() {
 
         <div className="w-full flex gap-2 my-2 flex-col items-center justify-center pb-2 lg:pb-10">
           <Card
-            title={items.homepage.title}
-            icon={<FaGlobe />}
-            url={items.homepage.url}
-          />
-          <Card
             title={items.github.title}
             icon={<FaGithub />}
             url={items.github.url}
           />
           <Card
-            title={items.showcase.title}
-            icon={<FaBars />}
-            url={items.showcase.url}
+            title={items.projects.title}
+            icon={<FaCode />}
+            url={items.projects.url}
+          />
+          <Card
+            title={items.articles.title}
+            icon={<FaNewspaper />}
+            url={items.articles.url}
+          />
+          <Card
+            title={items.stonkai.title}
+            icon={<FaChartLine />}
+            url={items.stonkai.url}
           />
 
           <Card
             title={items.greymatter.title}
             icon={<FaShoppingCart />}
             url={items.greymatter.url}
-          />
-
-          <Card
-            title={items.blog.title}
-            icon={<FaNewspaper />}
-            url={items.blog.url}
           />
           <Card
             title={items.engage_gpt.title}

@@ -25,14 +25,19 @@ export const items = {
     url: "https://engage-crypto.vercel.app/",
   },
 
-  homepage: {
-    title: "Homepage",
-    url: "https://engage-homepage.vercel.app/",
+  projects: {
+    title: "Projects",
+    url: "https://engage-showcase.vercel.app/projects",
   },
 
-  showcase: {
-    title: "Projects",
-    url: "https://engage-showcase.vercel.app",
+  articles: {
+    title: "Articles",
+    url: "https://engage-showcase.vercel.app/articles",
+  },
+
+  stonkai: {
+    title: "StonkAI",
+    url: "https://stonkai.xyz"
   },
 
   greymatter: {
@@ -42,18 +47,14 @@ export const items = {
 
   rugged_development: {
     title: "Rugged Development",
-    url: "https://ruggeddevelopment.io",
+    url: "https://rugged-development.vercel.app",
   },
 
   engage_gpt: {
     title: "EngageGPT",
-    url: "https://engage-chat.vercel.app",
+    url: "https://engage-gpt.vercel.app",
   },
 
-  blog: {
-    title: "Blog",
-    url: "https://engage-homepage.vercel.app/blog",
-  },
 
   github: {
     title: "GitHub",
