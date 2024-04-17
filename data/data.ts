@@ -1,5 +1,3 @@
-import { FaBlogger } from "react-icons/fa";
-
 export const config = {
   title: "linktreez",
   footer: "Made using linktreez",

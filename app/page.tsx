@@ -1,25 +1,18 @@
 import Avatar from "./(components)/Avatar";
 import Card from "./(components)/Card";
-import FeaturedCard from "./(components)/FeaturedCard";
 import PayMe from "./(components)/PayMe";
 
 import {
-  FaGlobe,
-  FaBlog,
   FaGithub,
   FaTwitter,
-  FaYoutube,
-  FaFacebook,
   FaInstagram,
   FaMedium,
-  FaDiscord,
   FaChartLine,
   FaNewspaper,
   FaCode,
   FaChartArea,
   FaLaptop,
   FaRobot,
-  FaBars,
   FaShoppingCart,
 } from "react-icons/fa";
 
