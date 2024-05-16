@@ -25,12 +25,12 @@ export const items = {
 
   projects: {
     title: "Projects",
-    url: "https://engage-showcase.vercel.app/projects",
+    url: "https://bento.engage-dev.com/projects",
   },
 
   articles: {
     title: "Articles",
-    url: "https://engage-showcase.vercel.app/articles",
+    url: "https://bento.engage-dev.com/now",
   },
 
   stonkai: {
